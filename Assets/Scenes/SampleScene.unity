@@ -246,7 +246,7 @@ PrefabInstance:
     - target: {fileID: 8301348219256438975, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.34
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8301348219256438975, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
         type: 3}
@@ -260,6 +260,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d23a71d629ca2cb428e58efdcf5d4c1b, type: 3}
+--- !u!1 &326088157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 326088159}
+  - component: {fileID: 326088158}
+  m_Layer: 0
+  m_Name: SCOREUIMANAGER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &326088158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326088157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3254a0e0a3abb2a4f9dc4c20311571db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+--- !u!4 &326088159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326088157}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.521206, y: 3.2414155, z: -3.3274708}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &609978601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -325,7 +369,7 @@ PrefabInstance:
     - target: {fileID: 5775753113698257907, guid: ed64c5a79084a644686e35a2d37663f9,
         type: 3}
       propertyPath: m_Name
-      value: Pikablecube (2)
+      value: Pickablecube (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed64c5a79084a644686e35a2d37663f9, type: 3}
@@ -456,6 +500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a62173d6437b547a21d4442c6e8595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreUIMgr: {fileID: 326088158}
 --- !u!1 &1859254936
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,7 +657,7 @@ PrefabInstance:
     - target: {fileID: 5775753113698257907, guid: ed64c5a79084a644686e35a2d37663f9,
         type: 3}
       propertyPath: m_Name
-      value: Pikablecube (1)
+      value: Pickablecube (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed64c5a79084a644686e35a2d37663f9, type: 3}
@@ -681,7 +726,7 @@ PrefabInstance:
     - target: {fileID: 5775753113698257907, guid: ed64c5a79084a644686e35a2d37663f9,
         type: 3}
       propertyPath: m_Name
-      value: Pikablecube
+      value: Pickablecube
       objectReference: {fileID: 0}
     - target: {fileID: 8039181847834986473, guid: ed64c5a79084a644686e35a2d37663f9,
         type: 3}
