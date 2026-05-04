@@ -5,9 +5,12 @@ using UnityEngine;
 public class InteractionArea : MonoBehaviour
 {
     void OnCollisionEnter(Collision col)
-    {
-
-        Debug.Log("Hubo colision");
+    {   
+        if(col.gameObject.CompareTag("Pickable"))
+        {
+            Debug.Log("Hubo colision con un Pickable");
+            Destroy(col.gameObject);
+        }
 
     }
 }
